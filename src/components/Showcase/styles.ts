@@ -26,6 +26,9 @@ export const Container = styled.section`
         -ms-transform: skewY(-3deg);
 
     } 
+    @media (max-width: 890px) { 
+        height: auto;
+    }
 `;
 
 export const ContainerGrid = styled.div`
@@ -35,6 +38,14 @@ export const ContainerGrid = styled.div`
     gap: 30px;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 890px) { 
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const ShowcaseText = styled.div`
@@ -44,6 +55,11 @@ export const ShowcaseText = styled.div`
 
     p {
         margin: 20px 0;
+    }
+
+    @media (max-width: 890px) {
+        text-align: center;
+        margin-top: 40px;
     }
 `;
 
@@ -61,6 +77,7 @@ export const ButtonLink = styled(Link)`
     &:hover {
         transform: scale(1.07);
     }
+    
 
 `;
 
@@ -76,6 +93,15 @@ export const ShowcaseFormCard = styled.div`
     padding: 20px;
     margin: 10px;
     z-index: 10;
+    
+    @media (max-width: 890px) { 
+        justify-self: center;
+        margin: auto;
+    }
+    @media (max-width: 570px) { 
+        width: 350px;
+        margin: 0;
+    }
 `;
 
 export const ShowcaseForm = styled.div`

@@ -15,6 +15,13 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 500px) {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 `;
 
 export const Nav = styled.nav`
@@ -22,6 +29,12 @@ export const Nav = styled.nav`
         list-style-type: none;
         display: flex;
     }
+
+    @media (max-width: 500px) {
+        padding: 20px;
+        background: #002240;
+        border-radius: 5px;
+    }  
 `;
 
 export const Links = styled(Link)`
@@ -32,6 +45,5 @@ export const Links = styled(Link)`
     
     &:hover {
             border-bottom: 2px solid #fff;
-        }        
-
+        } 
 `;

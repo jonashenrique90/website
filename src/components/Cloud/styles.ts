@@ -21,6 +21,9 @@ export const ContainerGrid = styled.div`
     gap: 30px;
     justify-content: center;
     align-items: center;
+    @media (max-width: 710px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const TextContainer = styled.div`

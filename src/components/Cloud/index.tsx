@@ -12,7 +12,7 @@ const Cloud: React.FC = () => {
                         <p>Cloud hosting like you've never seen. Fast, efficient and scalable</p>
                         <ButtonLink to="/features">Read More</ButtonLink>
                     </TextContainer>
-                    <img src={CloudImage} alt="Cloud Image"/>
+                    <img src={CloudImage} alt="Cloud"/>
                 </ContainerGrid>
             </CloudContainer>
         </SectionContainer>

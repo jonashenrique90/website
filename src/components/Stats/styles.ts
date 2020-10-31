@@ -23,6 +23,10 @@ export const Grid = styled.div`
     justify-content: center;
     align-items: center;
     margin: 3rem 0;
+    
+    @media (max-width: 710px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const Content = styled.div`
@@ -38,5 +42,14 @@ export const Content = styled.div`
     p {
         font-size: 2rem;
         font-weight: bold;
+    }
+    @media (max-width: 710px) {
+        h3 {
+            margin: 2px;
+        }
+    
+        p {
+            margin: 0;
+        }
     }
 `;

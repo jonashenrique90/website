@@ -5,6 +5,8 @@ import Showcase from '../../components/Showcase';
 import Stats from '../../components/Stats';
 import Cli from '../../components/Cli';
 import Cloud from '../../components/Cloud';
+import HorizontalCards from '../../components/HorizontalCards';
+import Footer from '../../components/Footer';
 
 const Landing: React.FC = () => {
     return (
@@ -14,6 +16,8 @@ const Landing: React.FC = () => {
             <Stats></Stats>
             <Cli></Cli>
             <Cloud></Cloud>
+            <HorizontalCards></HorizontalCards>
+            <Footer></Footer>
         </Container>
     )
 }

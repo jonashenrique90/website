@@ -15,9 +15,14 @@ export const ContainerGrid = styled.div`
     gap: 30px;
     justify-content: center;
     align-items: center;
+    
     img {
         grid-column: 1/ span 2;
         grid-row: 1/ span 2;
+    }
+
+    @media (max-width: 710px) {
+        grid-template-columns: 1fr;
     }
 `;
 export const Card = styled.div`
